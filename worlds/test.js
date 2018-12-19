@@ -22,8 +22,14 @@ const rooms = [
 {
   name:"The Beach",
   desc:"You see a naked Fox on the sand taking in the rays",
-  loc:"x:2,y:0"
+  loc:{x:2,y:0}
+},
+{
+  name:"Player's Den",
+  desc:"At the end of the room is a jukebox of Long Island discs",
+  loc:{x:1,y:0}
 }
+
 ]
 module.exports = {
   rooms
