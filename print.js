@@ -1,5 +1,5 @@
 const cli = {}
-cli.printScene = scene => {
-	
+cli.printRoom = room => {
+
 }
 module.exports = { cli }
