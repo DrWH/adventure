@@ -1,4 +1,5 @@
 const world = require("./worlds/test")
-
+const game = require('./game')
 const print = require("./print").cli
-print.printRoom(world.rooms[0])
+
+console.log(game.initialState(world))
